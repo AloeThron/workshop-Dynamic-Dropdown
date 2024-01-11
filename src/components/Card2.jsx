@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function card(props) {
+export default function Card2(props) {
   return (
     <div>
       <div className="w-[300px] bg-white shadow-md border border-gray-200 rounded-lg max-w-xs lg:max-w-sm">

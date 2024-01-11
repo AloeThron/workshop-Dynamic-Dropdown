@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import "./App.css";
-import Card from "./components/card";
 import Zoom from "./components/Zoom";
 import data from "./components/Food";
 import DropDown from "./components/DropDown";
+import Card2 from "./components/Card2"
 
 function App() {
   const [vis, setVis] = useState("hidden");
@@ -39,7 +39,7 @@ function App() {
           <div className="flex flex-wrap md:gap-10 justify-center 2xl:justify-around">
             {currentItems.map((f, index) => (
               <div key={index}>
-                <Card
+                <Card2
                   type={f.Type}
                   url={f.url}
                   setVis={setVis}
